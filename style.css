@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(40, 44, 44);
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.box{
+    text-align: center;
+    background-color: black;
+    margin-top: 250px;
+    border: 2px solid rgb(1, 32, 49);
+    padding-bottom: 50px;
+}
+
+h1{
+    color: rgb(216, 135, 34);
+    
+}
+
+.names{
+    background-color: black;
+    color: whitesmoke;
+    font-size: 28px;
+    border-radius: 15px;    
+}
+
+.names:hover{
+    border-radius: 20px;
+    border-color: aliceblue;
+    padding: 10px;
+}
+
+.names::placeholder{
+    text-align: center;
+    font-size: medium;
+    color: wheat;
+}
+
+.submit{
+    font-size: 30px;
+    cursor: pointer;
+    background-color:rgb(17, 153, 176);
+    border-radius: 45px;
+    border-color: black;
+}
